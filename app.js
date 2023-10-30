@@ -5,7 +5,7 @@ const axios = require('axios');
 const mysql = require('mysql2');
 
 const pool = mysql.createPool({
-    host: '192.168.56.101',
+    host: 'localhost',
     user: 'mmuser',
     password: 'Anjani@1234',
     database: 'doctor_appointment'
